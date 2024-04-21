@@ -36,6 +36,9 @@ main {
     border: 1px solid #A6A6A6;
     margin-bottom: 20px;
     background-color: #2F2F2F;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .post-header {
     display: flex;
