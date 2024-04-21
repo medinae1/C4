@@ -1,36 +1,64 @@
 /* styles.css */
 body {
-    background-color: #2F2F2F;
-    color: white;
-    font-family: Arial, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 10pt;
+    color: black; 
+    background-color: #f6f6ef;
 }
-header {
+.container {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    align-items: center;
 }
-header .logo {
-    font-size: 24px;
-    font-weight: bold;
+header {
+    background-color: #ff6600;
+    padding: 10px;
+}
+header h1 {
+    margin: 0;
+    font-size: 14pt;
 }
 nav ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin-bottom: 20px;
 }
 nav ul li {
-    margin-bottom: 10px;
+    display: inline;
+    margin-right: 10px;
+}
+.content-wrapper {
+    background-color: #f6f6ef;
+    padding: 20px;
 }
 main {
-    padding: 20px;
+    margin-left: 20px;
 }
 article {
     border: 1px solid #A6A6A6;
     margin-bottom: 20px;
     padding: 20px;
 }
-article header {
+.post-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    background-color: #A6A6A6;
+    padding: 5px;
     margin-bottom: 10px;
+}
+.post-header .post-number {
+    color: #828282;
+    margin-right: 5px;
+}
+.post-header .username, .post-header .date {
+    margin: 0 10px;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 7pt;
+}
+footer p {
+    margin: 0;
 }

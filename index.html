@@ -7,30 +7,43 @@
 </head>
 <body>
     <header>
-        <div class="logo">LOGO</div>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Settings</li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Hacker News</h1>
+            <nav>
+                <ul>
+                    <li>New</li>
+                    <li>Comments</li>
+                    <li>Show</li>
+                    <li>Ask</li>
+                    <li>Jobs</li>
+                    <li>Submit</li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <article>
-            <header>
-                <span class="username">Username</span>
-                <span class="date">Date Posted</span>
-            </header>
-            <p>This is a post.</p>
-        </article>
-        <article>
-            <header>
-                <span class="username">Username</span>
-                <span class="date">Date Posted</span>
-            </header>
-            <p>This is another post.</p>
-        </article>
-    </main>
+    <div class="content-wrapper">
+        <main>
+            <article>
+                <div class="post-header">
+                    <span class="post-number">1.</span>
+                    <span class="username">Username</span>
+                    <span class="date">Date Posted</span>
+                </div>
+                <p>This is a dummy post for demonstration purposes.</p>
+            </article>
+            <article>
+                <div class="post-header">
+                    <span class="post-number">2.</span>
+                    <span class="username">Username</span>
+                    <span class="date">Date Posted</span>
+                </div>
+                <p>This is another dummy post for demonstration purposes.</p>
+            </article>
+            <!-- Add more dummy posts as needed -->
+        </main>
+    </div>
+    <footer>
+        <p>© 2024 Hacker News</p>
+    </footer>
 </body>
 </html>
